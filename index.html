@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Order summary card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  
+  <main>
+
+    <picture>
+      <source media="(max-width:450px)" srcset="images/background-mobile.svg" class="backgroud">
+      <img class="backgroud" src="images/background-desktop.svg" alt="Backgound Desktop">
+    </picture>
+
+    <div class="container geral">
+      <img class="container__hero" src="images/illustration-hero.svg" alt="Ilustração hero">
+  
+        <div class="container_texto">
+      
+            <h1 class="container__titulo">Order Summary</h1>
+    
+            <p class="container__p">
+              You can now listen to millions of songs, audiobooks, and podcasts on any
+              device anywhere you like!
+            </p>
+
+            <section class="container__plano">
+              <img class="container_img" src="images/icon-music.svg" alt="Simbolo de Nota Musical">
+              <div class="valor">
+                <h2 class="container_titulo">Annual Plan</h2>
+                <p class="container_valor">$59.99/year</p>
+              </div>
+              <a class="change" href="#">Change</a>
+            </section>
+        </div>
+        <button class="container__botao">Proceed to Payment</button>
+        <a class="botao_cancel" href="#">Cancel Order</a>
+
+    </div>
+
+
+  </main>
+
+  
+
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Lucas R Silva</a>.
+  </div>
+</body>
+</html>

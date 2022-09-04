@@ -1,0 +1,115 @@
+body {
+    background-color:  hsl(225, 100%, 94%);
+    line-height: 1;
+}
+.backgroud{
+    position: absolute;
+    width: 100%;
+    background-color: hsl(225, 100%, 94%);
+}
+.container {
+    position: absolute;
+    width: 370px;
+    height: 650px;
+    text-align: center;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.change {
+    align-items: top;
+}
+.container__hero {
+
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: none;
+    padding-bottom: 10px;
+}
+.container_texto { 
+    margin: 0%;
+    padding-left: 10px;
+    padding-top: 10%;
+    text-align: center;
+    padding-right: 8%;
+    padding-left: 8%;
+    width: 85%;
+    height: 35%;
+    font-family: 'Red Hat Display', sans-serif;
+    padding-bottom: 15%;
+}
+.container__titulo {
+    font-weight: 900;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+.container__p{
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 10%;
+}
+.container__plano {
+    border-radius: 20px;
+    display: inline-block;
+    height: 20%;
+    background-color: hsl(225, 100%, 98%);
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    align-items: center;
+    vertical-align: top;
+}
+.container_img {
+    position: relative;
+    padding-left: 0%;
+    width: 20%;
+    display: inline-block;
+    vertical-align: middle;
+    vertical-align: top;
+    padding-top: 5%;
+}
+.valor {
+    display: inline-block;
+    font-weight: 500;
+    padding-top: 5%;
+    padding: 10%;
+}
+.container_titulo{
+    font-weight: 700;
+    padding-bottom: 10%;
+}
+.container_valor {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+button {
+    color: #FFFFFF;
+    border-radius: 10px;
+    width: 80%;
+    height: 50px;
+    background-color: hsl(245, 75%, 52%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    box-shadow: 0 20px 20px hsl(225, 100%, 94%);
+}
+.botao_cancel{
+    padding-left: 30px;
+    padding-top: 50px;
+    display: block;
+    color: hsl(224, 23%, 55%);
+    border-radius: 10px;
+    width: 80%;
+    height: 50px;
+    font-weight: 600;
+}
+
